@@ -1221,7 +1221,7 @@ public class TerminalPanel extends JComponent implements TerminalDisplay, Clipbo
       }
 
 
-      gfx.setFont(font);
+      //gfx.setFont(font);
 
       int descent = gfx.getFontMetrics(font).getDescent();
       int baseLine = (y + 1) * myCharSize.height - descent;
